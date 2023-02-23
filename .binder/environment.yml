@@ -1,0 +1,22 @@
+name: lets-plot-experiments
+channels:
+  - conda-forge
+  - jetbrains
+dependencies:
+  - python=3.8
+  - geopandas
+  - jupyter
+  - kotlin-jupyter-kernel
+  - numpy
+  - pandas
+  - pillow
+  - pip
+  - r-irkernel
+  - r-ggplot2
+  - r-ggridges
+  - r-quantreg
+  - scipy
+  - seaborn
+  - shapely
+  - pip:
+    - lets-plot
